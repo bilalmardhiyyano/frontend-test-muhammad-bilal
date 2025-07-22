@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suitmedia - Ideas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <a href="#">suitmedia</a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#" class="active">Ideas</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="banner-content">
+      <h1 class="banner-title">Ideas</h1>
+      <p class="banner-subtitle">Where all our great things begin</p>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <div class="controls">
+        <p class="post-count">Showing 1-10 of 100</p>
+        <div class="filters">
+          <div class="filter-group">
+            <label for="show-per-page">Show per page:</label>
+            <select id="show-per-page">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="sort-by">Sort by:</label>
+            <select id="sort-by">
+              <option value="-published_at">Newest</option>
+              <option value="published_at">Oldest</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="post-grid" id="post-grid">
+        <!-- Post cards will be inserted here by JavaScript -->
+      </div>
+
+      <div class="pagination" id="pagination">
+        <!-- Pagination links will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
