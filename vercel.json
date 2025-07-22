@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://suitmedia-backend.suitdev.com/api/$1"
+    }
+  ]
+}
